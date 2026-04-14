@@ -1,0 +1,54 @@
+{
+  "Header": {
+    "title": "Reel Sphere",
+    "home": "Home",
+    "movies": "Movies",
+    "series": "Series",
+    "myList": "My List",
+    "searchPlaceholder": "Search..."
+  },
+
+  "Hero": {
+    "featured": "Featured Masterpiece",
+    "title1": "REEL",
+    "title2": "SPHERE",
+    "body": "Dive into the infinite world of cinema. Curated stories, exclusive premieres, and your next favorite obsession",
+    "watch": "WATCH NOW",
+    "list": "MY LIST"
+  },
+
+  "Main": {
+    "archive": "The ARCHIVE",
+    "series": "Best Series",
+    "all": "View All",
+    "movies": "Best Movies",
+    "release": "New Releases",
+    "collections": {
+      "collection": "Collections",
+
+      "cardOne": {
+        "title": "Golden Classics",
+        "body": "Timeless masterpieces that defined generations, blending iconic performances with stories that continue to inspire."
+      },
+
+      "cardTwo": {
+        "title": "Ramadan Series",
+        "body": "A collection of captivating series that bring families together during Ramadan nights, filled with emotion, tradition, and unforgettable stories."
+      },
+
+      "cardThree": {
+        "title": "old Series",
+        "body": "Timeless masterpieces that defined generations, blending iconic performances with stories that continue to inspire."
+      },
+
+      "cardFour": {
+        "title": "Short Series",
+        "body": "A collection of captivating series that bring families together during Ramadan nights, filled with emotion, tradition, and unforgettable stories."
+      }
+    }
+  },
+
+  "About": {
+    "title": "Hello world!"
+  }
+}
