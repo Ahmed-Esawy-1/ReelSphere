@@ -36,9 +36,12 @@ const page = async () => {
                         </p>
                     </div>
                 </section>
-
+                <section className="w-full lg:w-1/2 flex items-center justify-center px-6 sm:px-10 xl:px-16 py-24 lg:py-12">
+                    <div className="w-full max-w-md">
+                        <SignForm />
+                    </div>
+                </section>
                 {/* FORM */}
-                <SignForm />
             </main>
         </>
     );
