@@ -89,9 +89,7 @@ const ContactForm = () => {
 
         setInputsValue((prev) => ({ ...prev, isSending: true }));
 
-        // Send
         const templateParams = {
-            to_email: "ahmed76esawy@gmail.com",
             name: inputsValue.name,
             email: inputsValue.email,
             _subject: `Contact Us: ${inputsValue.subject}`,
@@ -99,23 +97,47 @@ const ContactForm = () => {
             message: inputsValue.message,
         };
 
-        const result = await sendEmail(templateParams);
+        try {
+            const result = await sendEmail(templateParams);
 
-        if (result.success) {
-            setModalMessage({
-                title: t("success.title") || "Success!",
-                description:
-                    t("success.message") ||
-                    "Your message was sent successfully!",
-            });
-            setInputsValue(initialInputsState);
-        } else {
+            if (result.success) {
+                setModalMessage({
+                    title: t("success.title") || "Success!",
+                    description:
+                        t("success.message") ||
+                        "Your message was sent successfully!",
+                });
+
+                setInputsValue(initialInputsState);
+            } else {
+                console.error("Form submission failed:", result.error);
+
+                setModalMessage({
+                    title: t("error.title") || "Error",
+                    description:
+                        t("error.message") ||
+                        "Failed to send message. Please try again.",
+                });
+
+                setInputsValue((prev) => ({
+                    ...prev,
+                    isSending: false,
+                }));
+            }
+        } catch (error) {
+            console.error("Form submission error:", error);
+
             setModalMessage({
                 title: t("error.title") || "Error",
                 description:
                     t("error.message") ||
                     "Failed to send message. Please try again.",
             });
+
+            setInputsValue((prev) => ({
+                ...prev,
+                isSending: false,
+            }));
         }
 
         setShowModal(true);
