@@ -1,0 +1,52 @@
+{
+    "Header": {
+        "title": "Reel Sphere",
+        "home": "Home",
+        "movies": "Movies",
+        "series": "Series",
+        "myList": "My List",
+        "search": "Search",
+        "searchPlaceholder": "Search...",
+        "login": "Log In",
+        "signup": "Sign Up",
+        "myProfile": "My Profile",
+        "watchlist": "Watchlist",
+        "archivalSettings": "Archival Settings",
+        "signOut": "Sign Out"
+    },
+
+    "Footer": {
+        "brand": "Reel Sphere",
+        "description": "Reel Sphere is a streaming platform for movies and series, featuring Egyptian classics, modern productions, and exclusive content—all in one place.",
+        "support": {
+            "heading": "SUPPORT",
+            "contactUs": "Contact Us",
+            "privacyPolicy": "Privacy Policy",
+            "termsOfUse": "Terms of Use",
+            "accessibility": "Accessibility"
+        },
+        "copyright": "© 2026 Ahmed Esawy. All rights reserved.",
+        "social": {
+            "facebook": "Facebook",
+            "instagram": "Instagram",
+            "tiktok": "Tik Tok"
+        }
+    },
+
+    "Toast": {
+        "alreadyInList": "{title} is already in Watch List",
+        "addedToList": "{title} added to Watch List successfully"
+    },
+
+    "myList": {
+        "eyebrow": "Personal Collection",
+        "title": "My List",
+        "empty": "There are no items in your list."
+    },
+
+    "modal": {
+        "title": "Message Sent successfully ✅",
+        "description": "Our team will review your Message and get back to you shortly.",
+        "close": "Close"
+    }
+}

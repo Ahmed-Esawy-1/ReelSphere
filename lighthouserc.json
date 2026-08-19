@@ -1,0 +1,41 @@
+{
+    "ci": {
+        "collect": {
+            "numberOfRuns": 1,
+            "url": [
+                "http://localhost:3000/en",
+                "http://localhost:3000/en/movies",
+                "http://localhost:3000/en/movies/41",
+                "http://localhost:3000/en/series",
+                "http://localhost:3000/en/series/1",
+                "http://localhost:3000/en/myList",
+                "http://localhost:3000/en/accessibility",
+                "http://localhost:3000/en/contactus",
+                "http://localhost:3000/en/privacyPolicy",
+                "http://localhost:3000/en/termsOfUse",
+                "http://localhost:3000/en/signup",
+                "http://localhost:3000/en/login",
+
+                "http://localhost:3000/ar",
+                "http://localhost:3000/ar/movies",
+                "http://localhost:3000/ar/movies/41",
+                "http://localhost:3000/ar/series",
+                "http://localhost:3000/ar/series/1",
+                "http://localhost:3000/ar/myList",
+                "http://localhost:3000/ar/accessibility",
+                "http://localhost:3000/ar/contactus",
+                "http://localhost:3000/ar/privacyPolicy",
+                "http://localhost:3000/ar/termsOfUse",
+                "http://localhost:3000/ar/signup",
+                "http://localhost:3000/ar/login"
+            ],
+            "settings": {
+                "chromeFlags": "--headless --disable-gpu --no-sandbox"
+            }
+        },
+        "upload": {
+            "target": "filesystem",
+            "outputDir": "./lighthouse-reports"
+        }
+    }
+}

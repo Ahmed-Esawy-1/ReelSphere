@@ -1,0 +1,65 @@
+{
+    "badge": "Legal Documentation",
+    "title": "Privacy",
+    "titleHighlight": "Policy",
+    "intro": "At Reel Sphere, we respect your privacy and are committed to protecting your personal information. We collect only what is necessary to improve your experience and ensure our services run smoothly. Your data is never sold or misused, and we apply appropriate security measures to keep it safe. By using our platform, you can trust that your information is handled with care and transparency.",
+    "commitment": {
+        "title": "Privacy & Trust Commitment",
+        "paragraph1": "This Privacy Policy explains how your personal information is collected, used, and protected when you interact with the Archive. We value transparency as the foundation of trust, reflecting the clarity and care of a restored 35mm film.",
+        "paragraph2": "We commit to never monetizing your personal browsing habits or selling your archival journey to third-party advertisers. Your interaction with our collection remains between you and the screen.",
+        "lastUpdated": "Last Updated: May 12, 2026",
+        "version": "Version 1.0"
+    },
+    "dataCollection": {
+        "title": "Data Collection",
+        "device": {
+            "title": "Device Information",
+            "description": "We automatically collect certain information about your device, including web browser details, IP address, and time zone."
+        },
+        "personal": {
+            "title": "Personal Identifiers",
+            "description": "When you subscribe to the Archive, we collect your name, email address, and cinematic preferences to curate your experience."
+        }
+    },
+    "cookies": {
+        "title": "Cookies",
+        "description": "We use \"Cookies\" to record session information and provide a seamless navigation through our digital galleries.",
+        "necessary": "Necessary",
+        "analytics": "Analytics",
+        "alwaysOn": "Always On",
+        "optional": "Optional"
+    },
+    "usage": {
+        "titlePrefix": "How we use your",
+        "titleHighlight": "Information",
+        "curation": {
+            "title": "Curation",
+            "description": "We use your viewing history to suggest archival pieces that align with your historical interests and aesthetic tastes."
+        },
+        "preservation": {
+            "title": "Preservation",
+            "description": "Aggregated data helps us understand which eras of cinema require the most urgent digital restoration efforts."
+        },
+        "communication": {
+            "title": "Communication",
+            "description": "To provide you with updates regarding new additions to the Archive or changes to our cinematic programming."
+        },
+        "security": {
+            "title": "Security",
+            "description": "To screen for potential risk or fraud and to ensure the integrity of our digital heritage vault."
+        }
+    },
+    "dataRights": {
+        "title": "Your Data Rights",
+        "description": "You have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the information below.",
+        "button": "Request Data Export"
+    },
+    "securityStandard": {
+        "title": "Security Standard",
+        "description": "All transactions and data exchanges are protected using 256-bit SSL encryption, ensuring your heritage is preserved securely."
+    },
+    "footer": {
+        "contact": "For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at {email} or by mail using the details provided below:",
+        "location": "Al Gharbia, Egypt"
+    }
+}

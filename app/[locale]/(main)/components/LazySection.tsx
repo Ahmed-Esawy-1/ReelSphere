@@ -3,14 +3,24 @@
 import { useInView } from "react-intersection-observer";
 
 export default function LazySection({
-  children,
+    children,
+    className = "",
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
+    className?: string;
 }) {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    rootMargin: "200px",
-  });
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        rootMargin: "200px",
+    });
 
-  return <div ref={ref}>{inView ? children : <div className="h-40" />}</div>;
+    return (
+        <div ref={ref} className={className}>
+            {inView ? (
+                children
+            ) : (
+                <div className="w-full h-full bg-surface-container-low animate-pulse rounded-xl" />
+            )}
+        </div>
+    );
 }

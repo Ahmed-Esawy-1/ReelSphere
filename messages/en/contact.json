@@ -1,0 +1,82 @@
+{
+    "badge": "Contact Us",
+    "title": "We're Here to Help",
+    "titleHighlight": "Get in Touch",
+    "description": "Have a question, request, or complaint? Our team is ready to assist you. Reach out to us for support, inquiries, or feedback.",
+
+    "form": {
+        "title": "Send a Message",
+
+        "name": {
+            "label": "Full Name",
+            "placeholder": "Enter your name"
+        },
+
+        "email": {
+            "label": "Email Address",
+            "placeholder": "example@gmail.com"
+        },
+
+        "subject": {
+            "label": "Subject",
+            "placeholder": "Message Title"
+        },
+
+        "message": {
+            "label": "Message",
+            "placeholder": "Write your message here..."
+        },
+
+        "submit": "Send Message",
+        "sending": "Sending..."
+    },
+
+    "validation": {
+        "nameMin": "Name must be at least 5 characters",
+        "emailInvalid": "Enter a valid email address",
+        "subjectRequired": "Subject is required",
+        "messageLength": "Message must be between 10 and 150 characters"
+    },
+
+    "location": {
+        "title": "Headquarters Location",
+        "address": "Al Gharbia, Egypt",
+        "imageAlt": "Location Image"
+    },
+
+    "social": {
+        "title": "Social Media",
+        "facebook": "Facebook",
+        "tiktok": "TikTok",
+        "instagram": "Instagram"
+    },
+
+    "details": {
+        "visitingHours": {
+            "title": "Visiting Hours",
+            "weekdays": "Sun — Thu: 10:00 - 18:00",
+            "weekend": "Fri — Sat: By appointment only"
+        },
+        "directLine": {
+            "title": "Direct Line",
+            "phone": "+20 123 1234 1234"
+        }
+    },
+
+    "newsletter": {
+        "title": "Archival Updates",
+        "description": "Subscribe to receive monthly chronicles of cinematic restoration and exclusive screening invites.",
+        "emailPlaceholder": "Email Address",
+        "button": "Enlist"
+    },
+
+    "success": {
+        "title": "Success!",
+        "message": "Your message was sent successfully!"
+    },
+
+    "error": {
+        "title": "Error",
+        "message": "Failed to send message. Please try again."
+    }
+}

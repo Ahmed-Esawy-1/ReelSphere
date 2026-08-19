@@ -1,0 +1,20 @@
+{
+    "title": "The Archive",
+    "description": "A curated journey through the lens of history. Explore the definitive collection of Egyptian cinema's golden eras, preserved for the modern connoisseur.",
+    "emptyLabel": "There are no {item} to watch",
+    "items": {
+        "movies": "Movies",
+        "series": "Series"
+    },
+    "loadMore": "Load More {item}",
+    "loading": "Loading...",
+    "search": "Search...",
+    "filterBy": "Filter By:",
+    "genre": "Genre",
+    "tag": "Tag",
+    "cast": "Cast",
+    "similar": "Similar movies",
+    "episodes": "Episodes",
+    "episode": "Episode",
+    "playing": "Playing Now"
+}

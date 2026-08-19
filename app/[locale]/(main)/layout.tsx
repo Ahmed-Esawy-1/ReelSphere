@@ -1,22 +1,19 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import { MyListProvider } from "./contexts/MyListItems";
-import { ToastProvider } from "./contexts/Toast";
+import Header from "./components/common/Header";
+import Footer from "./components/common/Footer";
+import { MyListProvider } from "@/contexts/MyListItems";
 
 export default function MainLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <>
-      <ToastProvider>
-        <MyListProvider>
-          <Header />
-          {children}
-          <Footer />
-        </MyListProvider>
-      </ToastProvider>
-    </>
-  );
+    return (
+        <>
+            <MyListProvider>
+                <Header />
+                {children}
+                <Footer />
+            </MyListProvider>
+        </>
+    );
 }

@@ -1,0 +1,57 @@
+{
+    "hero": {
+        "badge": "Inclusivity Mandate",
+        "title": "Access for",
+        "titleHighlight": "Everyone.",
+        "intro": "At Reel Sphere, we believe access to movies and series should be inclusive for everyone. Our platform is designed with accessibility at its core—combining modern streaming technology with thoughtful, user-first design."
+    },
+    "screenReaders": {
+        "title": "Semantic Soundscapes",
+        "description": "Reel Sphere is fully optimized for screen readers such as VoiceOver and NVDA. We use semantic HTML and ARIA attributes to ensure all users can navigate and enjoy movies and series with ease.",
+        "badge": "WCAG 2.1 Level AA"
+    },
+    "visualClarity": {
+        "title": "Visual Precision",
+        "description": "Our interface is designed for clarity and comfort, with high contrast ratios and a carefully selected color palette to reduce eye strain during extended viewing sessions.",
+        "highContrast": "High Contrast Mode",
+        "textScaling": "Variable Text Scaling",
+        "motionReduction": "Motion Reduction"
+    },
+    "keyboardNavigation": {
+        "title": "Keyboard Navigation",
+        "description": "Navigate the entire platform without a mouse. Reel Sphere supports full keyboard interaction with clear focus states and logical navigation flow."
+    },
+    "transcripts": {
+        "title": "Descriptive Transcripts",
+        "description": "We provide subtitles and are continuously improving audio descriptions to ensure all movies and series are accessible to a wider audience."
+    },
+    "support": {
+        "title": "Need Help?",
+        "description": "Having trouble or noticed something we can improve? Our team is ready to support you and make your Reel Sphere experience better.",
+        "email": "access@reelsphere.com",
+        "phone": "+20 123 1234 1234"
+    },
+    "form": {
+        "title": "Report a Barrier",
+        "nameLabel": "Name",
+        "emailLabel": "Email",
+        "subjectLabel": "Subject",
+        "descriptionLabel": "Description",
+        "submit": "Submit",
+        "sending": "Sending...",
+        "errors": {
+            "nameMin": "Name must be at least 5 characters",
+            "emailInvalid": "Please enter a valid email",
+            "subjectRequired": "Subject is required",
+            "descriptionLength": "Description must be between 10 and 150 characters"
+        }
+    },
+    "success": {
+        "title": "Success!",
+        "message": "Your feedback was sent successfully!"
+    },
+    "error": {
+        "title": "Error",
+        "message": "Failed to send feedback. Please try again."
+    }
+}

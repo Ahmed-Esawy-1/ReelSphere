@@ -1,0 +1,42 @@
+{
+    "effectiveDate": "Effective Date: October 24, 2026",
+    "title": "Terms of",
+    "titleHighlight": "Use",
+    "intro": "Welcome to Reel Sphere. By accessing or using our platform, you agree to be bound by these Terms of Use. Please review them carefully before continuing.",
+    "acceptance": {
+        "title": "01. Acceptance of Terms",
+        "description": "By accessing Reel Sphere, you confirm that you have read, understood, and agreed to these Terms of Use. If you do not agree, you must discontinue use of the platform immediately."
+    },
+    "intellectualProperty": {
+        "title": "02. Intellectual Property",
+        "description": "All content on Reel Sphere, including videos, images, text, and design elements, is protected by intellectual property laws and remains the property of its respective owners or Reel Sphere.",
+        "allowed": "Content is available for personal, non-commercial use only.",
+        "prohibited": "Unauthorized reproduction, redistribution, or commercial use is strictly prohibited without prior permission.",
+        "imageCaption": "Archival Standard"
+    },
+    "userConduct": {
+        "title": "User Conduct",
+        "responsibilities": {
+            "title": "User Responsibilities",
+            "description": "You are responsible for maintaining the confidentiality of your account and ensuring that all information you provide is accurate and up to date."
+        },
+        "prohibitedActivities": {
+            "title": "Prohibited Activities",
+            "description": "You agree not to misuse the platform, including attempting unauthorized access, scraping data, disrupting services, or introducing malicious code."
+        }
+    },
+    "membership": {
+        "title": "04. Membership",
+        "description": "Certain features of Reel Sphere may require a subscription. Memberships are billed periodically and are non-transferable. Content availability may vary by region."
+    },
+    "liability": {
+        "title": "05. Limitation of Liability",
+        "quote": "\"Reel Sphere is provided on an \u201cas is\u201d and \u201cas available\u201d basis.\"",
+        "description": "The Cinematic Heritage provides content \"as is\" and \"as available.\" We do not warrant that the service will be uninterrupted or error-free. Historical inaccuracies or restoration artifacts are part of the heritage experience."
+    },
+    "cta": {
+        "title": "Need help or clarification?",
+        "description": "Reach out to our support team anytime.",
+        "button": "Contact Us"
+    }
+}

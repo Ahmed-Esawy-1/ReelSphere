@@ -1,0 +1,36 @@
+{
+    "Hero": {
+        "featured": "Featured Masterpiece",
+        "title1": "REEL",
+        "title2": "SPHERE",
+        "body": "Dive into the infinite world of cinema. Curated stories, exclusive premieres, and your next favorite obsession",
+        "watch": "WATCH NOW",
+        "list": "MY LIST"
+    },
+
+    "archive": "The ARCHIVE",
+    "series": "Best Series",
+    "all": "View All",
+    "movies": "Best Movies",
+    "release": "New Releases",
+    "Collections": {
+        "collection": "Collections",
+        "actionMovies": "Action Movies",
+        "dramaSeries": "Drama Series",
+        "ramadanSeries": "Ramadan Series",
+        "shortSeries": "Short Series"
+    },
+
+    "Series": {
+        "dramaSeries": "Drama Series",
+        "actionSeries": "Action Series",
+        "newSeries": "New Series",
+        "ramadanSeries": "Ramadan Series",
+        "shortSeries": "Short Series",
+        "comedySeries": "Comedy Series"
+    },
+
+    "About": {
+        "title": "Hello world!"
+    }
+}
